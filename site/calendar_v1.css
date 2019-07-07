@@ -43,7 +43,6 @@ td {
 
 .day:hover {
   background-color: rgba(0, 0, 0, 0.1);
-  cursor: pointer;
 	display: block;
 	width: 100px;
 	height: 100px;
