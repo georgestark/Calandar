@@ -12,11 +12,22 @@ table {
   background-color: #333333;
 }
 
+div#tips a span {display: none;}
 div#tips a:hover span {
-  display:block;
-  left:relative;
-  width:150px;
-  padding:5px;
+	display: block;
+	position: absolute;
+	left: 0%;
+	width: 100px;
+	height: 200px;
+	padding: 5px;
+	margin: 0px;
+	z-index: 100;
+	color: #0000CC;
+	background: #FFFFCC;
+	font: 10px Verdana, Arial, Helvetica, sans-serif;
+	text-align: center;
+	border: 1px solid #666666;
+	text-decoration: none;
 }
 
 th,
